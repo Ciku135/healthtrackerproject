@@ -6,6 +6,18 @@
         <title>Health Tracker</title>
     </head>
     <body>
-        <h1></h1>
+        <div class="inputs">
+            <label for="water">
+                Water Taken (mL)
+            </label>
+            <label for="bloodandsugarlevels">
+                Blood Sugar Levels (mg/dL)
+            </label>
+        </div>
+        <button id="submit">Submit</button>
+        <div id="editSection" class="hidden">
+            <button id="eraseEdit" onclick="eraseEdit()">Erase</button>
+            <button id="updateEntry" onclick="updateEntry()">Update</button>
+        </div>
     </body>
 </html>
