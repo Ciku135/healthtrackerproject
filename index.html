@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewpoint" content="width=device-width" />
+        <link rel="stylesheet" src="stype.css">
+        <script src="script.js"></script>
         <title>Health Tracker</title>
     </head>
     <body>
@@ -19,5 +21,18 @@
             <button id="eraseEdit" onclick="eraseEdit()">Erase</button>
             <button id="updateEntry" onclick="updateEntry()">Update</button>
         </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Water Taken <br> (mL)</th>
+                    <th>Blood Sugar Level <br> (mg/dL)</th>
+                    <th>Edit</th>
+                    <th>Erase</th>
+                </tr>
+            </thead>
+            <tbody id="output">
+            </tbody>
+        </table>
     </body>
 </html>
